@@ -50,6 +50,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 80%;
 }
 
 .fast-section-conten {
@@ -118,6 +119,8 @@ p {
 /* second-section- style start */
 .second-section-conten {
     text-align: center;
+    margin: 50px;
+    margin-top: 100px;
 }
 
 .second-section-h2 {
@@ -131,8 +134,72 @@ span {
     -webkit-text-fill-color: transparent;
 }
 
-.car-div{
+.card-contaniar {
     display: flex;
-    
+    width: 80%;
+    margin: auto;
 }
-/* second-section- style start */
+
+.card-div {
+    padding: 15px;
+}
+
+.img-card {
+    width: 90%;
+}
+
+/* second-section- style end */
+
+/* start-play-now-section */
+.play-now {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.play-now-conten {
+    text-align: right;
+}
+
+.play-img {
+    padding-top: 200px;
+    width: 50%;
+}
+
+.pichi {
+    position: relative;
+    bottom: 300px;
+    right: 115px;
+}
+
+/* btn-section  */
+.btn-containar {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    height: 300px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.btn-box {
+    width: 215px;
+    height: 80px;
+    margin: 5px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+}
+.btn-box:hover{
+cursor: pointer;
+background-color: #FFF;;
+border: solid 2px red;
+}
+.btn-box:hover p{
+    color: #F948B2;
+}
