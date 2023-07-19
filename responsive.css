@@ -1,0 +1,28 @@
+@media screen and (max-width:426px) {
+    .fast-section {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .image-container {
+        flex-direction: column-reverse;
+    }
+
+    .fast-section-conten,
+    .fast-section-conten-div,
+    .fast-section-img {
+
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+    .fast-section-conten-div{
+        text-align: start;
+    }
+    .img-fast-s {
+        width: 100%;
+    }
+}
+
+/* fast-section responsive done  */
