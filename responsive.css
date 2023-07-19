@@ -2,7 +2,20 @@
     .fast-section {
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        width: auto;
+    }
+    .long-div,
+    .nav-conteniar{
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+    .nav-list,
+    .long-div{
+        flex-direction: column;
+        height: 300px;
+        justify-content: center;
+        width: auto;
     }
     h2{
         font-size: 35px;
@@ -62,6 +75,15 @@
         width: auto;
         height: auto;
         border-radius: 10px;
+    }
+    .footer-p2,
+    .footer-p{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        text-align: center;
+    }
+    .footer-p23{
+        text-align: center;
     }
 }
 /* fast-section responsive done  */
