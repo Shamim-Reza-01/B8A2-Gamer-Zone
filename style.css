@@ -198,6 +198,7 @@ span {
 .btn-containar {
     width: 80%;
     margin: 0 auto;
+    margin-top: -150px;
     display: grid;
     align-items: center;
     grid-template-columns: repeat(5, 1fr);
