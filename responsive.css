@@ -1,8 +1,8 @@
 @media screen and (max-width:769px) {
-    .nav-conteniar {
+    /* .nav-conteniar {
         flex-direction: column;
         justify-content: center;
-        width: auto;
+        width: 95%;
         height: 500px;
         margin: 20px;
         margin-top: -150px;
@@ -31,7 +31,9 @@
     }
     
     
-
+    .footer-section{
+        width: auto;
+    } */
 }
 @media screen and (max-width:426px) {
     .nav-conteniar {
