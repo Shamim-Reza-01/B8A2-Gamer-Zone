@@ -1,3 +1,38 @@
+@media screen and (max-width:769px) {
+    .nav-conteniar {
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        height: 500px;
+        margin: 20px;
+        margin-top: -150px;
+    }
+    h2 {
+        font-size: 35px;
+        font-weight: 400;
+    }
+    
+    h1 {
+        font-size: 85px;
+        font-weight: 700;
+    }
+    .fast-section{
+        width: auto;
+        margin-left: 75px;
+    }
+    .second-section-conten{
+        width: auto;
+    }
+    .card-contaniar{
+        width: auto;
+    }
+    .second-tablet{
+        width: auto;
+    }
+    
+    
+
+}
 @media screen and (max-width:426px) {
     .nav-conteniar {
         flex-direction: column;
@@ -23,11 +58,9 @@
         font-weight: 400;
     }
     .fast-section{
-        padding-left: 80px;
+        flex-direction: column;
     }
-    .image-container {
-        flex-direction: column-reverse;
-    }
+    
 
     .fast-section-conten,
     .fast-section-conten-div,
@@ -60,7 +93,6 @@
     }
 
     .play-img {
-
         padding-top: 50px;
         width: 90%;
 
@@ -76,17 +108,10 @@
         right: 30px;
     }
 
-    /* play-section-end */
-    /* .btn-section{
-        align-items: center;
-        padding: 0px ;
-        margin: auto;
-    } */
     .btn-containar {
         grid-template-columns: repeat(2, 1fr);
-        width: 95%;                  
+        width: 90%;                  
         margin-top: -100px;
-        margin-right: -25px;
         height: auto;
     }
 

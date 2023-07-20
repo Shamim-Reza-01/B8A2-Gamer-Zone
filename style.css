@@ -176,9 +176,13 @@ span {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.online-g-p-h:hover{
+background-color: rgb(101, 96, 96);
+background-image: url(images/Rectangle\ 7.png);
+
 
 }
-
 .play-now-conten {
     text-align: right;
 }
